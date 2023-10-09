@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/firn.onlinev2/static/css/main.073c9b0a.css",
+    "main.js": "/firn.onlinev2/static/js/main.d1b7bf51.js",
+    "static/js/787.b4863898.chunk.js": "/firn.onlinev2/static/js/787.b4863898.chunk.js",
+    "static/media/logo.svg": "/firn.onlinev2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/firn.onlinev2/index.html",
+    "main.073c9b0a.css.map": "/firn.onlinev2/static/css/main.073c9b0a.css.map",
+    "main.d1b7bf51.js.map": "/firn.onlinev2/static/js/main.d1b7bf51.js.map",
+    "787.b4863898.chunk.js.map": "/firn.onlinev2/static/js/787.b4863898.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d1b7bf51.js"
+  ]
+}
