@@ -1,8 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './index.css';
 import App from './App';
+import AppMobile from './AppMobile';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
+//import AppMobile from './AppMobile';
 import reportWebVitals from './reportWebVitals';
+
+export default function router(){
+
+  return(
+    <BrowserRouter>
+    <Routes>
+      <Route path ="/" element ={<App/>}/>
+      <Route path = "pirate" element = {<AppMobile/>}/>
+
+    </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

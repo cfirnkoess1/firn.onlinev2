@@ -1,0 +1,12 @@
+.Background-Image{
+
+    Background-Image2:
+     url("./images/phoneBG.jpg");
+     background-size: "cover";
+     height: 100vh;
+     width:stretch px;
+     font-size: 50px;
+     background-repeat: no-repeat;
+  }
+
+
