@@ -1,21 +1,24 @@
 import './App.css';
-
+import Navbar from './Navbar'
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import AppMobile from './AppMobile.js';
 
 function App() {
+  
+  const onPirateClick =(navigate)=>{
+    navigate("/")}
   return (
+    <>
+    <Navbar/>
+    
+    <div className="Background-Image"></div>
+    <Routes>   
+       <Route exact path = '/new' element={<AppMobile onPirateClick={onPirateClick}/>}/>
+    </Routes>
+    </>
     
 
-    <div className = "Background-Image" >
-      
-      {/*br is to lower the heading message*/}
-    <br></br>
-    <br></br>
-      <h1 >Welcome</h1> 
-      <h3>to Firn.Online</h3>
-      <br>
-      </br>
-      <h7>a surprise?</h7>
-    </div>
     
   );
 }

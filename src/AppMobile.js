@@ -1,11 +1,18 @@
+import './AppMobile.css'
+
 function AppMobile(){
     return(
-        <body>
+        <>
         <div className = "Background-Image2">
 
-            <h1>I said don't use your phone...</h1>
+            <h1 align="center">You were warned</h1>
         </div>
-        </body>
+        
+        <div>
+            <p>I have no idea what to do with this website but I paid 99 cents for the domain.</p>
+        </div>
+
+        </>
     );
 }
 
