@@ -3,7 +3,7 @@ import './AppMobile.css'
 function AppMobile(){
     return(
         <>
-        <div className = "Background-Image2">
+        <div className = "Background-Image2" align="center">
 
             <h1 align="center">You were warned</h1>
         </div>

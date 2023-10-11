@@ -4,8 +4,9 @@
 
      url("./images/phoneBG.jpg");
      background-size: "cover";
+     background-position: center center;
      height: 323vh;
-     width:stretch px;
+     width:center px;
      font-size: 50px;
      background-repeat: no-repeat;
   }
